@@ -1,7 +1,7 @@
 import 'package:http/http.dart' as http;
 import 'dart:convert' as convert;
 class LocationServices{
-  final String key ='AIzaSyD4pX_mO_o5IrgI5DAz439EaQLFqfD78nI';
+  final String key ='APIkey';
 
   Future<String> getPlaceId(String input) async {
     final String url =
